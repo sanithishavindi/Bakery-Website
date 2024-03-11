@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pastry</title>
+<style>
+body{
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/230/985/188/assortment-bake-bakery-bread-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p{
+	font-size:20px;
+}
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color:black;
+}
+.topleft {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: 25px;
+  
+}
+.bottomleft {
+  position: absolute;
+  top: 270px;
+  left: 16px;
+  font-size: 25px;
+}
+.bottomright {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  font-size: 30px;
+  color:white;
+}
+button {
+ background-color: #616A6B; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+ 
+  cursor: pointer;
+  
+  
+}
+.go{
+	background-color:  #F8C471 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+</style>
+<script>
+function goBack() {
+ window.open("wd2.html","_self");
+}
+</script>
+</head>
+<body>
+<div class="container">
+<div class="topleft"><button class="go" onclick="goBack()">Go Back</button><br><br>Pastry is a dough of flour,<br> water and shortening that may be savoury or sweetened.<br> Sweetened pastries are often described as bakers' confectionery.<br> The word "pastries" suggests many kinds of baked products<br> made from ingredients such as flour, sugar, milk,<br> butter, shortening, baking powder, and eggs</div>
+
+
+<div class="topright">Rs.100.00</div>
+<div class="bottomleft"><b>Item Quantity   :</b><input type="text" name="txt"><br><br><b>Sub Total       :</b><input type="text" name="txt"></div>
+
+<div class="bottomright"><button type="button">ADD TO CART</button></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Sign Up</title>
+<style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/1462399.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+  font-size: 22px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Full-width input fields */
+input[type=text],input[type=address] {
+  width: auto;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  background-color:transparent;
+  
+}
+input[type=password], input[type=tel] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  background-color:transparent;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: transparent;
+  
+}
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+select{
+	width:90px;
+	height:40px;
+	background-color:transparent;
+}
+label{
+	color:black ;
+}
+img {
+  border-radius: 50%;
+}
+button {
+ background-color:#283747; 
+  border: none;
+  color: white;
+  width:60px;
+  height:60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+.go{
+	background-color:  #283747 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+</style>
+<script>
+function goBack() {
+ window.open("home.html","_self");
+}
+</script>
+</head>
+<body>
+<form action="action_page.php">
+  <div class="topleft"><button class="go" onclick="goBack()"><i class="arrow left"></i></button><br></div>
+  <div class="container">
+    <h1 align="center"style="color:black">Sign Up</h1>
+    <p style="color:black">Please fill in this form to create an account.</p>
+    <hr>
+    <br>
+	<label for="name"><b>Full Name&nbsp&nbsp:</b></label>
+	<input type="text" placeholder="Enter Full Name" name="name" id="name" required>
+    <br>
+	<label for="phone"><b>Phone No&nbsp&nbsp:</b></label>
+	<input type="tel" placeholder="Enter Phone No" name="phone" id="phone" required>
+    <br>
+	<label for="address"><b>Address&nbsp&nbsp:</b></label>
+	<input type="address" placeholder="Enter Address" name="address" id="address" required>
+    <br>
+    <label for="email"><b>Email&nbsp&nbsp:</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <br>
+    <label for="psw"><b>Password&nbsp&nbsp:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <br>
+    <label for="psw-repeat"><b>Repeat Password&nbsp&nbsp:</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+	<br>
+	<label for="option"><b>Payment Options&nbsp&nbsp:</b></label>
+	<select name = "dropdown">
+            <option value = "Cash" selected>Cash</option>
+            <option value = "Debit cards.">Debit cards.</option>
+            <option value = "Credit cards">Credit cards</option>
+         </select>
+    <hr>
+
+
+    <p style="color:black">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p style="color:black">Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+</body>
+</html>
+
+

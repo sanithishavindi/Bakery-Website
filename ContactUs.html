@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+body {
+  background-image: url('https://images.pexels.com/photos/4862865/pexels-photo-4862865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoCv0YiFhRUNNx9cg4S_bGKu-kOuyM5Tqxw&usqp=CAU');
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-size: 100% 50%, 100% 50%;
+  background-position: top, bottom ;
+ 
+}
+ 
+
+h1{
+ font-size: 70px;
+}
+button {
+ background-color: #797D7F; 
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.go{
+	background-color:  #283747 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+</style>
+<script>
+function goBack() {
+ window.open("home.html","_self");
+}
+</script>
+</head>
+</head>
+<body>
+<br>
+<div class="topleft"><button class="go" onclick="goBack()"style="width:60px;height:60px;"><i class="arrow left"></i></button><br></div>
+<h1 style="color:white" align="center" ><b>Contact us</b></h1><br><br>
+<h2 style="color:white" align="center">Get in touch and let us know how we can help</h2><br><br><br><br><br><br>
+<img src="data:image/png;base64,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" height ="50" width="50">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFP0AXmbIClaXHYtylLl5epd6Jxn3sBfs50w&usqp=CAU" height ="50" width="50" />
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://www.nicepng.com/png/detail/518-5185628_email-icon-symbol-of-email-black.png" height ="50" width="50" />
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://www.bdaworkready.co.uk/wp-content/uploads/2017/11/shift-work-clock-e1543573285955.jpg" height ="50" width="50" />
+<br>
+<p><b>29 Nicolas str, colombo-05 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Manager:+94 76 130 0145 <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Others:+94 76 374 1869 ,+94 70 196 0663 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  sandayanasanithi@gmail.com <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp tharuthariama@gmail.com
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Wednesday-Sunday 7:00AM-5:00PM </b></p>
+<br><p align="center"><b> Email us with any questions or inquiries or call. We would be happy to take your orders.</b></p>
+</body>
+</html>

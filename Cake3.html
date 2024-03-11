@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cake3</title>
+<style>
+body{
+  background-image: url('https://wallpaperaccess.com/full/1986160.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  background-position:center;
+  height: 100%;
+
+}
+p{
+	font-size:20px;
+}
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  font-size: 30px;
+  color:black;
+}
+.topleft {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: 25px;
+  
+}
+.bottomleft {
+  position: absolute;
+  top: 200px;
+  left: 16px;
+  font-size: 25px;
+  color: white;
+}
+.bottomright {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  font-size: 30px;
+  color:white;
+}
+button {
+ background-color: #616A6B; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+ 
+  cursor: pointer;
+  
+  
+}
+.go{
+	background-color:  #F8C471 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+select{
+	width:150px;
+	height:30px;
+	font-size:20px;
+}
+</style>
+<script>
+function goBack() {
+ window.open("wd.html","_self");
+}
+</script>
+</head>
+<body>
+<div class="container">
+<div class="topleft"><button class="go" onclick="goBack()">Go Back</button><br></div>
+
+<p align="center"style="font-size:50px;color:white;">A ready-to-eat slice of heaven.</p>
+<div class="topright">Rs.2000.00</div>
+<div class="bottomleft"><b>How many tiers do you want :&nbsp&nbsp</b><select><option>1 tier</option><option>2 tier</option><option>3 tier</option><option>4 tier</option><option>More</option></select><br><br><b>Writing on Cake &nbsp&nbsp </b><input type="checkbox"style="width:20px;height:20px;"><br><br><b>Item Quantity   :</b><input type="text" name="txt"><br><br><b>Sub Total       :</b><input type="text" name="txt"></div>
+
+<div class="bottomright"><button type="button">ADD TO CART</button></div>
+</div>
+
+
+</body>
+</html>

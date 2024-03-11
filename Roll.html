@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roll</title>
+<style>
+body{
+  background-image: url('https://crescentfoods.lk/images/products/FISH_CHINESE_ROLLS.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p{
+	font-size:20px;
+}
+.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 2px;
+  right: 12px;
+  font-size: 30px;
+  color:white;
+}
+.topleft {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: 25px;
+  
+}
+.bottomleft {
+  position: absolute;
+  top: 270px;
+  left: 16px;
+  font-size: 25px;
+}
+.bottomright {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  font-size: 30px;
+  color:white;
+}
+button {
+ background-color: #616A6B; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+ 
+  cursor: pointer;
+  
+  
+}
+.go{
+	background-color:  #F8C471 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+</style>
+<script>
+function goBack() {
+ window.open("wd2.html","_self");
+}
+</script>
+</head>
+<body>
+<div class="container">
+<div class="topleft"><button class="go" onclick="goBack()">Go Back</button><br><br>A roll is a small, usually round or oblong <br>individual loaf of bread served as a meal accompaniment.<br> Rolls can be served and eaten whole<br> or are also commonly used to make sandwiches.<br> They are found in most cuisines all over the world.</div>
+
+
+<div class="topright">Rs.80.00</div>
+<div class="bottomleft"><b>Item Quantity   :</b><input type="text" name="txt"><br><br><b>Sub Total       :</b><input type="text" name="txt"></div>
+
+<div class="bottomright"><button type="button">ADD TO CART</button></div>
+</div>
+
+
+</body>
+</html>

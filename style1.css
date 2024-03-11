@@ -1,0 +1,104 @@
+h1{
+	font-family: papyrus;
+	color: white;
+}
+body
+{
+	background-image: url(https://images.pexels.com/photos/4862865/pexels-photo-4862865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	font-family: copperplate;
+}
+ul,ol{
+	font-family:MV Boli;
+}
+button {
+ background-color: #797D7F; 
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.go{
+	background-color:  #283747 ; 
+  border: none;
+  color: white;
+  width:fixed;
+  height:fixed;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  
+}
+.image{
+	margin-left:100px;
+	border: 1px solid white;
+    border-radius: 50px;
+	padding: 10px;
+	height:400px;
+	width:400px;
+	display: block;
+    object-fit: cover;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  margin-left:110px;
+  border-radius: 50px;
+  float:left;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  overflow: hidden;
+  width: 400px;
+  height: 40px;
+  transition: .7s ease;
+  
+}
+.container:hover .overlay {
+  top:400px;
+  height: 100%;
+}
+.text {
+  font-family:papyrus;
+  white-space: nowrap; 
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.Ingrediants, .procedure{
+	color:white;
+	margin-left:80px;
+	float:left;
+}
